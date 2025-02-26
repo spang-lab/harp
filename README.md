@@ -16,13 +16,9 @@ For more  details, see [bioarxiv](). -->
 2. Start an `R` session from the repository root folder
 3. Run following code snippet from within `R`
 ```R
-install.packages("devtools")
-devtools::install()
-```
-<!-- ```
 library(devtools)
 devtools::install_github("spang-lab/harp")
-``` -->
+```
 ## Usage
 
 The cell type proportions are estimated by the function `harp_deconvolution_model`. The main inputs are:
