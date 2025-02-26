@@ -1,0 +1,21 @@
+Package: harp
+Type: Package
+Title: Estimates reference profiles and cellular abundance for deconvolution of bulk transcriptomic data
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Zahra", family = "Nozari", role = c("aut", "cre"), email = "Zahra.Nozari@klinik.uni-regensburg.de"),
+    person(given = "Paul", family = "Hüttl", role = c("ctb"), email = "paul.huettl@ur.de"))
+Description: HARP is a computational method that improves tissue deconvolution accuracy by addressing both biological and technical inconsistencies in the data. The method harmonizes discrepancies between experimentally measured tissue compositions, deconvolution results, and reconstructed bulk profiles. This process leads to more reliable cell type proportion estimates for bulk tissue samples. 
+License: will be determined
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    stats,
+    ggplot2,
+    reshape2,
+    stringr,
+    DTD,
+    scales,
+    matlib,
+    R (>= 3.5)
