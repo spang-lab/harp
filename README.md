@@ -81,7 +81,7 @@ output_harp$estimated_cell_composition
 
 ###  Visualization and Benchmark
 
-We provide another package **harplication**, for showcasing harp in a vignette and reproducing the results of our papar.
+We provide another package [harplication] (https://github.com/spang-lab/harplication), for showcasing harp in a vignette and reproducing the results of our papar.
 
 **Harp: A Platform Independent Deconvolution Tool** by\
 Zahra Nozari, Paul Hüttl, Jakob Simeth, Marian Schön, James.A. Hutchinson, Rainer Spang, 2025.
