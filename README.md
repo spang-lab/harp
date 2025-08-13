@@ -4,7 +4,7 @@ HARP is a computational method that improves tissue deconvolution accuracy by ad
 
 
 <div style="text-align: center">
-    <img src="harp_schematics.png" width=500 alt="harpschematics"/>
+    <img src="harp_schematics.jpg" width=500 alt="harpschematics"/>
 </div>
 <!-- 
 For more  details, see [bioarxiv](). -->
