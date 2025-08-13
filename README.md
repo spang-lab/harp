@@ -16,13 +16,9 @@ For more  details, see [bioarxiv](). -->
 2. Start an `R` session from the repository root folder
 3. Run following code snippet from within `R`
 ```R
-install.packages("devtools")
-devtools::install()
-```
-<!-- ```
 library(devtools)
 devtools::install_github("spang-lab/harp")
-``` -->
+```
 ## Usage
 
 The cell type proportions are estimated by the function `harp_deconvolution_model`. The main inputs are:
@@ -85,7 +81,7 @@ output_harp$estimated_cell_composition
 
 ###  Visualization and Benchmark
 
-We provide another package **harplication**, for showcasing harp in a vignette and reproducing the results of our papar.
+We provide another package [harplication](https://github.com/spang-lab/harplication), for showcasing harp in a vignette and reproducing the results of our papar.
 
 **Harp: A Platform Independent Deconvolution Tool** by\
 Zahra Nozari, Paul Hüttl, Jakob Simeth, Marian Schön, James.A. Hutchinson, Rainer Spang, 2025.
